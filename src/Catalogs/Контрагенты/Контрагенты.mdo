@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e2f8991-378e-4b3e-951f-99b4949faf5e">
+  <producedTypes>
+    <objectType typeId="db4ca500-97b8-4834-ba0a-56ab7fe23d5e" valueTypeId="ec0466bd-3700-4d9f-85e8-fa4c4d7f50fd"/>
+    <refType typeId="ce68c155-a143-4de4-9063-f506d6577061" valueTypeId="77a0565e-f5e3-4990-9265-f2dd3152b006"/>
+    <selectionType typeId="91cfc0e1-d077-41e8-b2d1-a1d73597dacc" valueTypeId="91482fd7-cf81-4f85-9c49-70c011bb5b64"/>
+    <listType typeId="54efafea-eda4-4192-a4d1-8a745f7440e9" valueTypeId="b35162e0-0fca-45da-a246-64a89d76bbf8"/>
+    <managerType typeId="efdc972c-f48b-4a10-a41c-c606d1cc43d3" valueTypeId="64b8e3c1-1c0c-4403-b6c6-83b52f963209"/>
+  </producedTypes>
+  <name>Контрагенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрагенты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Контрагенты.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="332e6b92-9dc0-46f9-b0c2-38e50e5fbf8f">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="1fcd4fbc-ee1c-4837-aad1-3d04bf2d6243">
+    <name>ДвиженияПоРегистру</name>
+    <synonym>
+      <key>ru</key>
+      <value>Движения по регистру</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.Контрагенты</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Catalog>

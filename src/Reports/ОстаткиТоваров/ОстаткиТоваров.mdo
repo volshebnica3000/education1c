@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b3ec0c3-37d0-465d-8924-4a1edacc9e67">
+  <producedTypes>
+    <objectType typeId="36b5ea78-64a3-49d3-96b6-f55426fcb8d4" valueTypeId="28308d76-26cc-47d9-b27f-186d30ed0cec"/>
+    <managerType typeId="51684d68-587a-45d9-a211-1002685e4b42" valueTypeId="c08d888d-2a5d-420b-b3cb-08d6581244c9"/>
+  </producedTypes>
+  <name>ОстаткиТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки товаров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОстаткиТоваров.Template.ОсновнаяСхемаКомпоновкиДанных1</mainDataCompositionSchema>
+  <templates uuid="bb9ea0e2-6519-4204-80d1-bb61fabeb107">
+    <name>ОсновнаяСхемаКомпоновкиДанных1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных1</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

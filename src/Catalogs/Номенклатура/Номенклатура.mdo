@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a8ae91b-d3fa-46d8-b94a-9b54311aa3d3">
+  <producedTypes>
+    <objectType typeId="e5d8be2d-23de-4cad-8124-00cbff04ef23" valueTypeId="b5dde105-1774-42bc-aa18-debdab400984"/>
+    <refType typeId="99976879-bd52-48b0-9895-f84b7c51a2f0" valueTypeId="1aee77e0-4891-4ac1-8d93-32315355c7fc"/>
+    <selectionType typeId="49bfda53-26b5-44b5-8b2d-1761b5627bd6" valueTypeId="c9a02977-86ca-4272-89fa-f721e3f240f5"/>
+    <listType typeId="367b5709-0643-422e-9eb6-c55d24705feb" valueTypeId="1772c269-9568-4b5a-8714-cfb89b581b84"/>
+    <managerType typeId="3ddcfe7a-1ba2-43f2-a313-bcb257991466" valueTypeId="04a6878e-dced-4f40-9e2d-46f378846842"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="411e24ec-5049-43e3-ae82-c728e790948e">
+    <name>ЭтоУслуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это услуга</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
