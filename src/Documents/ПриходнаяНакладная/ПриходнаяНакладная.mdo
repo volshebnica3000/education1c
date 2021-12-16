@@ -160,13 +160,13 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
-  <commands uuid="8bcdd781-24c9-407e-83d5-bee6e5992591">
-    <name>ОткрытьСчетНаОплату</name>
+  <commands uuid="44e15848-27f6-4862-ac2b-dee3eec739a6">
+    <name>РедактироватьКомментарий</name>
     <synonym>
       <key>ru</key>
-      <value>Открыть счет на оплату</value>
+      <value>Редактировать комментарий</value>
     </synonym>
-    <group>FormNavigationPanelGoTo</group>
+    <group>ActionsPanelTools</group>
     <representation>Auto</representation>
   </commands>
 </mdclass:Document>

@@ -208,6 +208,35 @@
       <textEdit>true</textEdit>
     </extInfo>
   </items>
+  <items xsi:type="form:FormGroup">
+    <name>Группа1</name>
+    <id>65</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>Группа1РасширеннаяПодсказка</name>
+      <id>66</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>CommandBar</type>
+    <extInfo xsi:type="form:CommandBarExtInfo">
+      <horizontalAlign>Left</horizontalAlign>
+      <commandSource>Item.Комментарий</commandSource>
+    </extInfo>
+  </items>
   <items xsi:type="form:FormField">
     <name>Комментарий</name>
     <id>58</id>
@@ -245,6 +274,7 @@
       <autoFill>true</autoFill>
     </contextMenu>
     <type>FormattedDocumentField</type>
+    <readOnly>true</readOnly>
     <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -259,7 +289,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:Button">
-    <name>ПерейтиПоСсылкеНаСчет</name>
+    <name>РедактироватьКомментарий</name>
     <id>63</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -267,7 +297,7 @@
       <common>true</common>
     </userVisible>
     <extendedTooltip>
-      <name>ПерейтиПоСсылкеНаСчетРасширеннаяПодсказка</name>
+      <name>РедактироватьКомментарийРасширеннаяПодсказка</name>
       <id>64</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -282,7 +312,7 @@
       </extInfo>
     </extendedTooltip>
     <type>UsualButton</type>
-    <commandName>Document.ПриходнаяНакладная.Command.ОткрытьСчетНаОплату</commandName>
+    <commandName>Document.ПриходнаяНакладная.Command.РедактироватьКомментарий</commandName>
     <representation>Auto</representation>
     <autoMaxWidth>true</autoMaxWidth>
     <autoMaxHeight>true</autoMaxHeight>
