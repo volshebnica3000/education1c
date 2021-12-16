@@ -35,6 +35,7 @@
   <catalogs>Catalog.Номенклатура</catalogs>
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.РасходнаяНакладная</documents>
+  <documents>Document.СчетНаОплату</documents>
   <reports>Report.ОстаткиТоваров</reports>
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
 </mdclass:Configuration>
