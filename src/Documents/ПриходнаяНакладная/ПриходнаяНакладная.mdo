@@ -57,21 +57,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="f411b77d-fd0b-4a74-8647-3f284a5cab7e">
-    <name>ХранениеКомментария</name>
-    <synonym>
-      <key>ru</key>
-      <value>Хранение комментария</value>
-    </synonym>
-    <type>
-      <types>ValueStorage</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <forms uuid="9cc99da9-47ef-4e6c-be1a-58ce3edca9ba">
     <name>ФормаДокумента</name>
     <synonym>

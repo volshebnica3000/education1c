@@ -757,7 +757,9 @@
     <id>4</id>
     <valueType>
       <types>String</types>
-      <stringQualifiers/>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
     </valueType>
     <view>
       <common>true</common>
