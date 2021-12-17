@@ -208,38 +208,9 @@
       <textEdit>true</textEdit>
     </extInfo>
   </items>
-  <items xsi:type="form:FormGroup">
-    <name>Группа1</name>
-    <id>65</id>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <extendedTooltip>
-      <name>Группа1РасширеннаяПодсказка</name>
-      <id>66</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <type>CommandBar</type>
-    <extInfo xsi:type="form:CommandBarExtInfo">
-      <horizontalAlign>Left</horizontalAlign>
-      <commandSource>Item.Комментарий</commandSource>
-    </extInfo>
-  </items>
   <items xsi:type="form:FormField">
     <name>Комментарий</name>
-    <id>58</id>
+    <id>67</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -250,7 +221,7 @@
     </dataPath>
     <extendedTooltip>
       <name>КомментарийРасширеннаяПодсказка</name>
-      <id>60</id>
+      <id>69</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -265,7 +236,7 @@
     </extendedTooltip>
     <contextMenu>
       <name>КомментарийКонтекстноеМеню</name>
-      <id>59</id>
+      <id>68</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -273,51 +244,24 @@
       </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
-    <type>FormattedDocumentField</type>
-    <readOnly>true</readOnly>
+    <type>InputField</type>
     <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:FormattedDocFieldExtInfo">
-      <width>50</width>
+    <extInfo xsi:type="form:InputFieldExtInfo">
+      <handlers>
+        <event>Opening</event>
+        <name>КомментарийОткрытие</name>
+      </handlers>
       <autoMaxWidth>true</autoMaxWidth>
-      <height>10</height>
       <autoMaxHeight>true</autoMaxHeight>
-      <horizontalStretch>true</horizontalStretch>
-      <verticalStretch>true</verticalStretch>
+      <wrap>true</wrap>
+      <openButton>true</openButton>
+      <chooseType>true</chooseType>
+      <typeDomainEnabled>true</typeDomainEnabled>
+      <textEdit>true</textEdit>
     </extInfo>
-  </items>
-  <items xsi:type="form:Button">
-    <name>РедактироватьКомментарий</name>
-    <id>63</id>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <extendedTooltip>
-      <name>РедактироватьКомментарийРасширеннаяПодсказка</name>
-      <id>64</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <type>UsualButton</type>
-    <commandName>Document.ПриходнаяНакладная.Command.РедактироватьКомментарий</commandName>
-    <representation>Auto</representation>
-    <autoMaxWidth>true</autoMaxWidth>
-    <autoMaxHeight>true</autoMaxHeight>
-    <placementArea>UserCmds</placementArea>
-    <representationInContextMenu>Auto</representationInContextMenu>
   </items>
   <items xsi:type="form:Table">
     <name>Товары</name>
@@ -810,9 +754,10 @@
       <key>ru</key>
       <value>Комментарий</value>
     </title>
-    <id>3</id>
+    <id>4</id>
     <valueType>
-      <types>FormattedDocument</types>
+      <types>String</types>
+      <stringQualifiers/>
     </valueType>
     <view>
       <common>true</common>

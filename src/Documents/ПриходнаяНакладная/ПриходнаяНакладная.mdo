@@ -160,13 +160,4 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
-  <commands uuid="44e15848-27f6-4862-ac2b-dee3eec739a6">
-    <name>РедактироватьКомментарий</name>
-    <synonym>
-      <key>ru</key>
-      <value>Редактировать комментарий</value>
-    </synonym>
-    <group>ActionsPanelTools</group>
-    <representation>Auto</representation>
-  </commands>
 </mdclass:Document>
